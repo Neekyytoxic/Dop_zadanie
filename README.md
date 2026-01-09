@@ -22,15 +22,14 @@
 2. Перешли в раздел Status → Targets
 3. Проверили, что target cAdvisor имеет статус UP
 
-<img width="1436" height="919" alt="image" src="https://github.com/user-attachments/assets/f4689f0a-644b-428a-ac98-72bd9540bc98" />
-
+<img width="974" height="533" alt="image" src="https://github.com/user-attachments/assets/df1198cd-01fa-4175-9411-57ed64b3a0b4" />
 
 4. Выполнили тестовый запрос:
     - Перешли на главную страницу Prometheus
     - В поле запроса ввели метрику `container_cpu_usage_seconds_total`
     - Нажали Execute и убедились, что данные выводятся
-    - 
-<img width="974" height="533" alt="image" src="https://github.com/user-attachments/assets/df1198cd-01fa-4175-9411-57ed64b3a0b4" />
+      
+<img width="1436" height="919" alt="image" src="https://github.com/user-attachments/assets/f4689f0a-644b-428a-ac98-72bd9540bc98" />
 
         
 ## Этап 5: Подключение Grafana к Prometheus
